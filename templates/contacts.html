@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Contacts - Rakshika</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-black text-white font-['Poppins']">
+    <div class="p-6">
+        <div class="flex items-center gap-4 mb-8">
+            <a href="/"><i class="fas fa-arrow-left text-xl text-red-600"></i></a>
+            <h1 class="text-2xl font-bold font-['Orbitron']">Contacts</h1>
+        </div>
+
+        <div class="space-y-4">
+            <div class="bg-zinc-900 p-4 rounded-xl border border-zinc-800 flex justify-between items-center">
+                <div>
+                    <h3 class="font-bold">Police (Emergency)</h3>
+                    <p class="text-red-600 font-bold text-lg">100</p>
+                </div>
+                <a href="tel:100" class="bg-red-600 p-3 rounded-full"><i class="fas fa-phone"></i></a>
+            </div>
+
+            <div class="bg-zinc-900 p-4 rounded-xl border border-zinc-800 flex justify-between items-center">
+                <div>
+                    <h3 class="font-bold">Women Helpline</h3>
+                    <p class="text-red-600 font-bold text-lg">1091</p>
+                </div>
+                <a href="tel:1091" class="bg-red-600 p-3 rounded-full"><i class="fas fa-phone"></i></a>
+            </div>
+
+            <div class="bg-zinc-900 p-4 rounded-xl border border-zinc-800 flex justify-between items-center">
+                <div>
+                    <h3 class="font-bold">Papa (Home)</h3>
+                    <p class="text-gray-400 text-sm">+91 98765 43210</p>
+                </div>
+                <div class="flex gap-2">
+                    <button class="bg-zinc-800 p-3 rounded-full text-blue-400"><i class="fas fa-comment"></i></button>
+                    <a href="tel:1234567890" class="bg-red-600 p-3 rounded-full"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <button class="w-full mt-10 border-2 border-dashed border-zinc-700 py-4 rounded-xl text-gray-500 hover:border-red-600 hover:text-red-600 transition">
+            <i class="fas fa-plus mr-2"></i> Add Trusted Contact
+        </button>
+    </div>
+</body>
+</html>

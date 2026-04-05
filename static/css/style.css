@@ -1,0 +1,21 @@
+body { overflow-x: hidden; }
+
+/* SOS Pulse Animation */
+@keyframes pulse-red {
+    0% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7); }
+    70% { box-shadow: 0 0 0 20px rgba(255, 0, 0, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0); }
+}
+
+.sos-glow {
+    animation: pulse-red 2s infinite;
+}
+
+/* Map Marker Pulse */
+.leaflet-marker-icon.pulse {
+    animation: pulse-red 1.5s infinite;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-thumb { background: #FF0000; border-radius: 10px; }
