@@ -21,6 +21,11 @@ def contacts():
 def services():
     return render_template('services.html')
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+
 if __name__ == '__main__':
     # debug=True se aapko errors browser mein hi dikh jayenge
    app.run(host='0.0.0.0', port=5000, debug=True)
